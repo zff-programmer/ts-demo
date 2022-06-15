@@ -19,7 +19,6 @@ class ScorePanel {
     this.scoreEle.innerHTML = ++this.score + ''
     if (this.score % this.upScore == 0) {
       this.levelUp()
-      console.log('levelup')
     }
   }
 
